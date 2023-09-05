@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+    
+}
+.logo{
+    cursor: pointer;
+}
+nav select{
+    background: transparent;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 4px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color:#fff;
+    padding: 7px 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
