@@ -20,6 +20,8 @@ const Navbar = () => {
           <button id="signin">Sign In</button>
         </div>
       </nav>
+
+
     </div>
   );
 };

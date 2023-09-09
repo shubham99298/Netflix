@@ -1,7 +1,12 @@
-/* .App {
-  text-align: center;
+ .App {
+  /* text-align: center; */
+  height: 400vh;
+  /* background-color: #000;
+  color: white;
+  */
 }
 
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -46,4 +51,7 @@
 body{
   background: #000;
   color: #fff;
+ 
 }
+
+

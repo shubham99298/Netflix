@@ -1,13 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
-import Middle from './Components/Middle';
+import Header from './Components/Header';
+
+
 
 
 function App() {
   return (
     <div className="App">
         
-     <Middle/>
+     <Header/>
+  
+     
+  
 
     </div>
   );
