@@ -4,6 +4,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/ed2b002b-c6c5-459c-9c97-753f50e8286b/IN-en-20230807-popsignuptwoweeks-perspective_alpha_website_large.jpg');  ;
     background-size: cover;
     background-position: center;
+   
     position: absolute;
     
 }
@@ -49,4 +50,24 @@
     font-size: 16px;
     cursor: pointer;
     padding: 15px 31px;
+}
+@media (max-width: 480px) {
+    .header {
+     width: 1050px;
+    
+      background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/ed2b002b-c6c5-459c-9c97-753f50e8286b/IN-en-20230807-popsignuptwoweeks-perspective_alpha_website_large.jpg');  ;
+  
+    }
+  }
+  @media (min-width: 481px) and (max-width: 1024px) {
+    .header {
+        width: 1000px;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/ed2b002b-c6c5-459c-9c97-753f50e8286b/IN-en-20230807-popsignuptwoweeks-perspective_alpha_website_large.jpg');  ;
+    }
+}
+@media (min-width: 1024px) {
+    .header {
+        width: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://assets.nflxext.com/ffe/siteui/vlv3/6c884f48-f7d8-4a59-9d25-b7c138813aee/ed2b002b-c6c5-459c-9c97-753f50e8286b/IN-en-20230807-popsignuptwoweeks-perspective_alpha_website_large.jpg');  ;
+    }
 }
